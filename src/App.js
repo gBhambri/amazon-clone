@@ -11,7 +11,7 @@ import Payment from './Components/Payment'
 import {loadStripe} from '@stripe/stripe-js'
 import {Elements} from '@stripe/react-stripe-js'
 import Orders from './Components/Orders';
-const promise=loadStripe('pk_test_jeHSPcn0WTCLSr5KjjI9GdBu00BJ5VHs2y');
+const promise=loadStripe('Test Key');
 
 const App=()=>{
   const [{user},dispatch]=useStateValue('')
